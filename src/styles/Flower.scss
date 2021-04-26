@@ -1,0 +1,20 @@
+.flower{
+    z-index: -10;
+    position: absolute;
+    margin-top: -450px;
+    margin-left: -50px;
+    width: 30vw;
+    opacity: 0.1;
+    overflow: hidden;
+
+}
+@media (max-width: 600px) {
+    .flower{
+    width: 70vw;
+    }
+}
+   
+    
+    
+
+    

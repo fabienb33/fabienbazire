@@ -1,0 +1,116 @@
+#darkMode {
+  background: transparent url("../assets/daynight.png") no-repeat center;
+  z-index: 2;
+  position: fixed;
+  margin-top: 20px;
+  margin-right: 10px;
+  background-size: 40px 40px;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  // filter: grayscale(100%);
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  transition: background-color 2s ease-in-out, filter 2s ease-in-out;
+  background-position: right;
+}
+
+#darkMode:hover,
+#darkMode:focus {
+  filter: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#darkMode.clicked {
+  filter: none !important;
+}
+:root {
+  --blue: rgb(20, 22, 24);
+  --white: rgb(236, 236, 236);
+  --sun: url("../assets/sun.png");
+  --night: url("../assets/moon.png");
+}
+body.light {
+  --background-color: var(--white);
+  --text-color: var(--blue);
+  --font-weight: 400;
+  // background-image: var(--sun);
+  // background-repeat: no-repeat;
+  // background-size: 30px 30px;
+  // background-position: right top;
+  // background-position-y: 20px;
+  // background-position-x: 99%;
+  transition: background 2s ease-in-out, color 2s ease-in-out;
+  // --image: url("../assets/fabienbazireB.png"); 
+}
+body.dark {
+  --background-color: var(--blue);
+  --text-color: var(--white);
+  --font-weight: 500;
+  // background-image: var(--night);
+  // background-repeat: no-repeat;
+  // background-size: 30px 30px;
+  // background-position: right top;
+  // background-position-y: 20px;
+  // background-position-x: 99%;
+  transition: background 2s ease-in-out, color 2s ease-in-out;
+  // --image: url("../assets/fabienbazire.png")
+}
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+  font-weight: var(--font-weight);
+  transition: background 2s ease-in-out, color 2s ease-in-out;
+}
+.image {
+  z-index: 0;
+  width: 893px;
+  height: 507px;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 2s ease-in-out;
+  background-image: var(--image);
+  color: var(--text-color);
+  filter: invert(100%);
+}
+nav {
+  z-index: 2;
+  position: fixed;
+  // margin-top: 8px;
+  width: 600px;
+  height: 30px;
+  font-family: 'SweetTalk';
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background: var(--background-color);
+  transition: background 2s ease-in-out, color 2s ease-in-out;
+  padding: 20px 70px 20px 20px;
+  border-bottom-left-radius: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin-right: 8%;
+  transition: background 2s ease-in-out, color 2s ease-in-out;
+}
+
+nav a:focus {
+  font-weight: 400;
+  color: #9ccc68;
+}
+
+@media (max-width: 1024px) { 
+  nav {
+      display: none;
+      background: none;
+  }
+}

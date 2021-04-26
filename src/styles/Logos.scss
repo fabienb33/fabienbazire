@@ -1,0 +1,318 @@
+.containerLogos{
+    width: 86%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    .boxTop{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+
+ //////////////BOX1/////////////
+
+
+
+    .boxLeft{
+        width: 40.3%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        box-sizing: border-box;
+
+        .gridContainer{
+            width: 15vw;
+            margin: 0.9vw;
+            transition: 2s;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background-color: rgb(20, 22, 24);
+        }
+        .overlay{
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            z-index: 1;
+            position: absolute;
+            transition: 0.5s;
+            background: var(--background-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .overlay:hover{
+            margin-top: 0;
+            opacity: 1;
+            transition: 0.5s;
+            background: var(--background-color);
+        }
+        .textGrid{
+            font-family: 'Heaters';
+            font-size: 3vw;
+            margin-top: 15%;
+        }
+        .imgGrid{
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+        .boxSupImg{
+            width: 90%;
+            margin: auto;
+        }
+        
+        .supImg{
+            position: relative;
+            z-index: 100;
+            width: 25%;
+            margin: 10px;
+        }
+            .toto{
+                z-index: 100;
+            }
+        
+          .shape {
+            stroke-dasharray: 50%;
+            stroke-dashoffset: -100%;
+            stroke-width: 8px;
+            fill: transparent;   
+            position: absolute;     
+            transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+          }
+          .gridContainer:hover .shape {
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            position: absolute;
+            stroke-width: 8px;
+            stroke-dashoffset: 25%;
+            stroke-dasharray: 50%;
+            stroke: #9ccc68;
+          }
+    }
+
+    
+
+ //////////////BOX2/////////////
+
+
+
+    .boxRight{
+        width: 55%;
+        box-sizing: border-box;
+        box-sizing: border-box;
+        .titleRea{
+            width: 90%;
+            font-size: 8vw;
+            font-family: 'Heaters';
+            margin:0 0 50px 0;
+        }
+        .text{
+            font-size: 0.9rem;
+            font-family: 'Roboto';
+            font-weight: 300;
+            line-height: 1.2rem;
+            text-align: justify;
+            }
+        .highlight {
+            display: inline-block;
+            color: var(--text-color);
+            transition: background 2s ease-in-out, color 2s ease-in-out;
+            text-decoration: none;
+            position: relative;
+            z-index: 0;
+        
+            &::after {
+              position: absolute;
+              z-index: -1;
+              bottom: 5px;
+              left: 50%;
+              transform: translateX(-50%);
+              content: '';
+              width: 100%;
+              height: 3px;
+              background-color: #9ccc68;
+              transition: all 250ms;
+            }
+        
+            &:hover {
+              color: var(--text-color);
+              
+              &::after {
+                height: 100%;
+                width: 110%;
+              }
+              
+            }
+            
+          }
+    }
+    
+
+
+ //////////////BOTTOM/////////////
+
+
+
+    .boxBottom{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        min-height: 200px;
+
+        .gridContainer{
+            width: 15vw;
+            margin: 0.9vw;
+            transition: 2s;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background-color: rgb(20, 22, 24);
+        }
+        .overlay{
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            z-index: 1;
+            position: absolute;
+            transition: 0.5s;
+            background: var(--background-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .overlay:hover{
+            margin-top: 0;
+            opacity: 1;
+            transition: 0.5s;
+            background: var(--background-color);
+        }
+        .textGrid{
+            font-family: 'Heaters';
+            font-size: 3vw;
+            margin-top: 15%;
+        }
+        .imgGrid{
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+        .boxSupImg{
+            width: 90%;
+            margin: auto;
+        }
+        
+        .supImg{
+            position: relative;
+            z-index: 100;
+            width: 25%;
+            margin: 10px;
+        }
+            .toto{
+                z-index: 100;
+            }
+        
+          .shape {
+            stroke-dasharray: 50%;
+            stroke-dashoffset: -100%;
+            stroke-width: 8px;
+            fill: transparent;   
+            position: absolute;     
+            transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+          }
+          .gridContainer:hover .shape {
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            position: absolute;
+            stroke-width: 8px;
+            stroke-dashoffset: 25%;
+            stroke-dasharray: 50%;
+            stroke: #9ccc68;
+          }
+          .hideImg{
+              display: none;
+          }
+    }
+    
+}
+
+
+//////////////MEDIAQUERIES/////////////
+
+
+@media (max-width:1024px) {
+    .containerLogos{
+        .boxRight{
+            width: 100%;
+            .text{
+            padding-right: 0;
+        }
+        }
+        
+        .boxTop{
+            width: 95%;
+            margin: 0 auto 50px auto; 
+            .hideImg{
+                display: none;
+            }
+        }
+        
+        .boxBottom{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            .hideImg{
+                display: block;
+            }
+            .gridContainer{
+                width: 26.5vw;
+                margin: 0.5vw;
+            }
+        }
+    }
+
+}
+
+@media (max-width:600px) {
+    .containerLogos{
+        .boxTop{
+            width: 70%;
+        }
+        .boxBottom{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            .hideImg{
+                display: block;
+            }
+            .gridContainer{
+                width: 60vw;
+                margin: 0.5vw;
+            }
+        }
+    }
+
+}

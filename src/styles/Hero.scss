@@ -1,0 +1,64 @@
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 40vw;
+    
+
+    .boxHero{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+        margin-top: -2vw;
+    }
+    .boxImgHero{
+        width: 100%;
+        position: absolute;
+        margin-top: 3vw;
+    }
+    .imgHero{
+        position: absolute;
+        width: 100%;
+    }
+    
+    .logoTitle{
+        font-size: 50vw;
+        font-family: 'happyuncle';
+        color: var(--text-color);
+        transition: background 2s ease-in-out, color 2s ease-in-out;
+
+    }
+    .boxSubtitle{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100px;
+        margin: auto;
+        margin-top: -16vw;
+    }
+    .subtitle{
+        font-family: 'SweetTalk';
+        text-align: left;
+        font-size: 2.5vw;
+        margin-right: 5vw;
+    }
+    
+    @media (max-width: 1024px) {
+        .logoTitle{
+            font-size: 70vw;
+        }
+        .boxImgHero{
+            margin-top: 20vw;
+        }
+        .boxSubtitle{
+            margin-top: -20vw;
+        }
+        .subtitle{
+            font-size: 5vw;
+        }
+    }
+    
+}

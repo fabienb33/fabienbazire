@@ -1,0 +1,73 @@
+.footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    .colors{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .blue1{
+        width: 10%;
+        height: 8px;
+        background-color: #61a8a5;
+    }
+    .blue2{
+        width: 10%;
+        height: 8px;
+        background-color: #86d5f4;
+    }
+    .blue3{
+        width: 10%;
+        height: 8px;
+        background-color: #2aabe2;
+    }
+    .violet1{
+        width: 10%;
+        height: 8px;
+        background-color: #896aae;
+    }
+    .violet2{
+        width: 10%;
+        height: 8px;
+        background-color: #be71ae;
+    }
+    .pink1{
+        width: 10%;
+        height: 8px;
+        background-color: #ef7aae;
+    }
+    .pink2{
+        width: 10%;
+        height: 8px;
+        background-color: #ee1b95;
+    }
+    .orange1{
+        width: 10%;
+        height: 8px;
+        background-color: #f47f1f;
+    }
+    .orange2{
+        width: 10%;
+        height: 8px;
+        background-color: #fcb316;
+    }
+    .orange3{
+        width: 10%;
+        height: 8px;
+        background-color: #fced20;
+    }
+    .green1{
+        width: 10%;
+        height: 8px;
+        background-color: #c9de5f;
+    }
+    .green2{
+        width: 10%;
+        height: 8px;
+        background-color: #9ccc68;
+    }
+}

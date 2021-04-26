@@ -1,0 +1,25 @@
+.boxFlower{
+    width: 100%;
+    overflow: hidden;
+
+    .flower{
+        z-index: -10;
+        position: absolute;
+        width: 30vw;
+        opacity: 0.1;
+        right: 0px;
+    }
+    @media (max-width: 600px) {
+        .flower{
+        width: 70vw;
+        }
+    }
+      
+}
+
+
+   
+    
+    
+
+    
