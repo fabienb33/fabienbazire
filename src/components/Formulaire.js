@@ -10,38 +10,18 @@ import Fade from 'react-reveal/Fade';
 
 
 const Formulaire = () => {
-    function sayHello() {
-        alert('Votre message a bien été envoyé, nous reprendrons contact avec vous prochainement');
-      }
+    
     return (
         <div className="containerForm">
             
             <section id='contact'></section>
             
             <div className="contact">
-                <Fade left>
-                <form>
-                    <div className="select">
-                        <input type="text" className="textInput" placeholder="Nom*" required></input>
-                        <input type="text" className="textInput" placeholder="Prénom"></input>
-                    </div>
-
-                    <div className="select">
-                        <input type="number" className="textInput" placeholder="Numéro de téléphone*" required></input>
-                        <input type="email" className="textInput" placeholder="Adresse Email*"></input>
-                    </div>
-
-                    <div className="select1">
-                        <input type="text" className="textInput1" placeholder="Message"></input>
-                    </div>
-
-                    <button onClick={sayHello} className="buttonForm">Envoyer</button>
-                </form>
-                </Fade>
+               
                 <Fade right>
                 <div className="infos">
-                    <p className="titleRea"><a href="www.happyuncle.fr" className="highlight">contact</a></p>
-                    <p className="textCV">Vous pouvez me contacter en remplissant le formulaire ou me retrouver sur les réseaux sociaux.
+                    <p className="titleRea highlight">contact</p>
+                    <p className="textCV">Vous pouvez me contacter par mail à <a href="mailto:fabienbazire@live.fr" className="mailto">fabienbazire@live.fr</a> ou me retrouver sur les réseaux sociaux.
                     Vous pouvez également télécharger mon Curriculum Vitae au format pdf en cliquant sur l'icône "CV".</p>
                     
                     <div className="boxIcon">

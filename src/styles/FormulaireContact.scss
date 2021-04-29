@@ -1,0 +1,203 @@
+.containerForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    overflow: hidden;
+
+    .titleRea{
+        font-size: 8vw;
+        font-family: 'Heaters';
+        }        
+    
+    .particules{
+        width: 100%;
+        position: absolute;
+    }
+    .contact{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+
+    }
+    form{
+        padding-top: 100px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .select{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .select1{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+        .textInput {
+            width: 47%;
+            height: 50px;
+            padding: 12px 20px;
+            margin: 8px 0 50px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: #cccbc8 1px solid;
+            font-size: 0.9rem;
+            color:#6e7b80;
+            font-family: 'Roboto';
+            background-color: rgba(0, 0, 0, 0);
+            }
+        .textInput:focus {
+            outline: none;
+            color:#37b1e3;
+        }
+        .textInput1 {
+            width: 100%;
+            height: 50px;
+            padding: 12px 20px;
+            margin: 8px 0 50px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: #cccbc8 1px solid;
+            font-size: 0.9rem;
+            color:#6e7b80;
+            font-family: 'Roboto';
+            background-color: rgba(0, 0, 0, 0);
+        }
+        .textInput1:focus {
+            outline: none;
+            color:#37b1e3;
+        }
+        
+        .buttonForm{
+            background-color: #9ccc68;
+            width: 100%;
+            height: 50px;
+            cursor: pointer;
+            border: none;
+            color: white;
+            font-size: 1rem;
+        }
+        .buttonForm:focus{
+            background-color: #4bafd3;
+            outline: none;
+        }
+        .buttonForm:hover{
+            background-color: #4bafd3;
+            outline: none;
+        }
+        .infos{
+            width: 40%;
+            padding: 0 50px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            height: auto;
+        }
+        .textCV{
+            font-size: 0.9rem;
+            font-family: 'Roboto';
+            color: var(--text-color);
+            transition: background 2s ease-in-out, color 2s ease-in-out;
+            text-align: center;
+            line-height: 1.2rem;
+            font-weight: 300;
+        }
+        .highlight {
+            display: inline-block;
+            color: var(--text-color);
+            transition: background 2s ease-in-out, color 2s ease-in-out;
+            text-decoration: none;
+            position: relative;
+            z-index: 0;
+            font-size: 8vw;
+            font-family: 'Heaters';
+        
+            &::after {
+              position: absolute;
+              z-index: -1;
+              bottom: 5px;
+              left: 50%;
+              transform: translateX(-50%);
+              content: '';
+              width: 100%;
+              height: 3px;
+              background-color: #9ccc68;
+              transition: all 250ms;
+            }
+        
+            &:hover {
+              color: var(--text-color);
+              
+              &::after {
+                height: 100%;
+                width: 110%;
+              }
+              
+            }
+            
+        }
+        .profilPic{
+            width: 200px;
+            z-index: 1;
+        }
+        .boxInfos{
+            width: 100%;
+            overflow: hidden;
+            margin-top: -100px;
+            z-index: -1;
+            margin-bottom: -10px;
+        }
+        .boxIcon{
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+        }
+        .icons{
+            width: 60px;
+        }
+        .bgInfos{
+            width: 100%;
+        }
+    
+}
+@media (max-width: 1024px) {
+    .containerForm{
+        width: 100%;
+        .contact{
+            margin-bottom: 50px;
+        
+        form{
+            width: 100%;
+        }
+        .infos{
+            width: 100%;
+            padding: 0;
+            .titleRea{
+                margin-bottom: 50px;
+            }
+            .textCV{
+                width: 100%;
+                margin-bottom: 50px;
+            }
+        }
+        .boxIcon{
+            width: 100%;
+        }
+    }
+}
+}

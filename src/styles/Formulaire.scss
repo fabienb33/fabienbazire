@@ -9,11 +9,22 @@
     .titleRea{
         font-size: 8vw;
         font-family: 'Heaters';
+        margin-bottom: 50px;
         }        
     
     .particules{
         width: 100%;
         position: absolute;
+        margin-top: -200px;
+    }
+    .mailto{
+        color: var(--text-color);
+        text-decoration: underline;
+        transition: 1s;
+    }
+    .mailto:hover{
+        color: #9ccc68;
+        transition: 1s;
     }
     .contact{
         width: 70%;
@@ -23,83 +34,8 @@
         margin: auto;
 
     }
-    form{
-        padding-top: 100px;
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .select{
-        width: 100%;
-        height: 10%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .select1{
-        width: 100%;
-        height: 10%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-        .textInput {
-            width: 47%;
-            height: 50px;
-            padding: 12px 20px;
-            margin: 8px 0 50px 0;
-            box-sizing: border-box;
-            border: none;
-            border-bottom: #cccbc8 1px solid;
-            font-size: 0.9rem;
-            color:#6e7b80;
-            font-family: 'Roboto';
-            background-color: rgba(0, 0, 0, 0);
-            }
-        .textInput:focus {
-            outline: none;
-            color:#37b1e3;
-        }
-        .textInput1 {
-            width: 100%;
-            height: 50px;
-            padding: 12px 20px;
-            margin: 8px 0 50px 0;
-            box-sizing: border-box;
-            border: none;
-            border-bottom: #cccbc8 1px solid;
-            font-size: 0.9rem;
-            color:#6e7b80;
-            font-family: 'Roboto';
-            background-color: rgba(0, 0, 0, 0);
-        }
-        .textInput1:focus {
-            outline: none;
-            color:#37b1e3;
-        }
-        
-        .buttonForm{
-            background-color: #9ccc68;
-            width: 100%;
-            height: 50px;
-            cursor: pointer;
-            border: none;
-            color: white;
-            font-size: 1rem;
-        }
-        .buttonForm:focus{
-            background-color: #4bafd3;
-            outline: none;
-        }
-        .buttonForm:hover{
-            background-color: #4bafd3;
-            outline: none;
-        }
         .infos{
-            width: 40%;
+            width: 60%;
             padding: 0 50px;
             display: flex;
             justify-content: center;
@@ -114,6 +50,8 @@
             text-align: center;
             line-height: 1.2rem;
             font-weight: 300;
+            margin-bottom: 50px;
+
         }
         .highlight {
             display: inline-block;

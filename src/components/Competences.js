@@ -40,7 +40,7 @@ const Competences = () => {
            </Fade>
            <Fade right>
            <div className="box2">
-               <p className="title"><a href="www.happyuncle.fr" className="highlight">Competences</a></p>
+               <p className="title"><a href="www.happyuncle.fr" className="highlight">Qui suis-je</a></p>
                <p className="text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim 

@@ -12,6 +12,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "animejs": "^3.2.1",
+    "axios": "^0.21.1",
     "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-anchor-link-smooth-scroll": "^1.0.12",
