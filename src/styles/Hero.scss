@@ -12,22 +12,32 @@
         flex-wrap: wrap;
         margin: auto;
         justify-content: center;
-        margin-top: -2vw;
     }
     .boxImgHero{
         width: 100%;
         position: absolute;
-        margin-top: 3vw;
+        margin-top: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vw;
     }
     .imgHero{
         position: absolute;
         width: 100%;
+    }
+    .imgHero2{
+        position: absolute;
+        width: 70%;
+        z-index: -1;
+        margin: auto;
     }
     
     .logoTitle{
         font-size: 50vw;
         font-family: 'happyuncle';
         color: var(--text-color);
+        text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
         transition: background 2s ease-in-out, color 2s ease-in-out;
 
     }
@@ -38,6 +48,7 @@
         height: 100px;
         margin: auto;
         margin-top: -16vw;
+        text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
     }
     .subtitle{
         font-family: 'SweetTalk';

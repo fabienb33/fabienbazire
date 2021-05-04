@@ -1,7 +1,7 @@
 import './App.css';
 import './styles/Header.scss'
-import './styles/Hero.scss'
-import Hero from './components/Hero'
+import './styles/Hero2.scss'
+import Hero from './components/Hero2'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Competences from './components/Competences'

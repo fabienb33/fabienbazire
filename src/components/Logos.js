@@ -51,8 +51,7 @@ const Logos = () => {
                 <Fade left>
                 <div className="boxRight">
                     <p className="titleRea"><a href="www.happyuncle.fr" className="highlight">logos</a></p>
-                    <p className="text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-                   doloremque laudantium, totam rem aperiam"</p>
+                    <p className="text">Dans cette section, vous trouvez une sélection de mes réalisations de logos et typographies</p>
                 </div>
                 </Fade>
                 </div>

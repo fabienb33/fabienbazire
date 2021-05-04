@@ -1,0 +1,81 @@
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20vw;
+    
+
+    .boxHero{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .boxImgHero{
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+        margin-top: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vw;
+    }
+    .imgHero{
+        position: absolute;
+        width: 100%;
+    }
+    .imgHero2{
+        position: absolute;
+        width: 100vw;
+        z-index: -1;
+        margin: auto;
+        max-width: 1374px;
+    }
+    
+    .logoTitle{
+        // font-size: 50vw;
+        // font-family: 'happyuncle';
+        // color: var(--text-color);
+        // text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+        // transition: background 2s ease-in-out, color 2s ease-in-out;
+        margin-top: 12vw;
+        width: 70vw;
+        max-width: 892px;
+    }
+    .boxSubtitle{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100px;
+        margin: auto;
+        margin-top: -16vw;
+        text-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    }
+    .subtitle{
+        font-family: 'SweetTalk';
+        text-align: left;
+        font-size: 2.5vw;
+        margin-right: 5vw;
+        margin-top: 10vw;
+    }
+    
+    @media (max-width: 1024px) {
+        .logoTitle{
+            font-size: 70vw;
+        }
+        .boxImgHero{
+            margin-top: 20vw;
+        }
+        .boxSubtitle{
+            margin-top: -20vw;
+        }
+        .subtitle{
+            font-size: 5vw;
+        }
+    }
+    
+}

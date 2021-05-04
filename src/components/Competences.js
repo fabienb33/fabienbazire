@@ -41,17 +41,15 @@ const Competences = () => {
            <Fade right>
            <div className="box2">
                <p className="title"><a href="www.happyuncle.fr" className="highlight">Qui suis-je</a></p>
-               <p className="text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-                   doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-                   veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim 
-                   ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
-                   consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque 
-                   porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci 
-                   velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam 
-                   aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem 
-                   ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? 
-                   Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil 
-                   molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+               <p className="text">Diplômé en infographie, webdesign et en intégration (BAC+2) depuis 2008, 
+               je me suis spécialisé depuis dans la création et l'intégration de maquettes web UI/UX (Frontend). 
+               Passionné de nature, je me suis formé à différents langage (HTML, CSS, SASS, JAVASCRIPT...) 
+               et techniques (responsive design, animation, wordpress…). J'utilise aujourd'hui le framework React 
+               pour développer mes sites en JSX (Vanilla JS) et ainsi créer des Applications Web. 
+               Début 2021, j'ai également participé à un bootcamp au Reacteur (Paris) afin d'accroitre mes compétences 
+               et ainsi continuer ma veille technique ce qui m’a notamment permis d’apprendre les base du Javascript 
+               et du React Native (application web). Mon travail s’étend aujourd’hui de la création d’identité de marque 
+               à l’intégration complète de sites web ou d’applications mobiles.</p>
            </div>
            </Fade>
        </div>
