@@ -11,6 +11,8 @@ const Hero2 = () => {
         <div className="hero">
             <section id='accueil'></section>
             <Particles/>
+            <Particles/>
+            <Particles/>
             <div className="boxHero">
                 <Fade top>
                 {/* <p className="logoTitle">A</p> */}
